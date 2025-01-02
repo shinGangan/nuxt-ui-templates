@@ -19,7 +19,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "test": "vitest -c $npm_package_config_vitest"
+    "test": "vitest -c $npm_package_config_vitest",
+    "gen:page": "npx nuxi add page",
+    "gen:api": "npx nuxi add api"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.7.0",
