@@ -1,0 +1,22 @@
+'chore 🏠':
+  - changed-files:
+      - any-glob-to-any-file:
+          - .github/**/*
+          - .vscode/*
+
+'docs ✍️':
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'docs/**/*'
+          - '**/*.md'
+
+'enhancement 🚀':
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'src/**/*'
+
+'testing ✅':
+  - changed-files:
+      - any-glob-to-any-file:
+          - '**/test/**/*'
+          - '**/**/*.test.*'
