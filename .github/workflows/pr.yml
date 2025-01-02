@@ -26,7 +26,6 @@ jobs:
     if: ${{ contains(github.head_ref, 'renovate') == false }}
     permissions:
       contents: read
-      repository-projects: read
       pull-requests: write
     with:
       number: ${{ github.event.pull_request.number }}
