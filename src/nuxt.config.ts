@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ['@nuxt/test-utils/module', '@nuxt/ui'],
+  modules: ['@nuxt/test-utils/module', '@nuxt/ui', '@nuxtjs/i18n'],
 
   $development: {
     devtools: { enabled: true }
@@ -20,5 +20,9 @@ export default defineNuxtConfig({
         types: ['vitest/importMeta']
       }
     }
+  },
+
+  i18n: {
+    defaultLocale: 'ja'
   }
 });
