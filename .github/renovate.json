@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>shinGangan/renovate-config",
+    "github>shinGangan/renovate-config//config/nuxt/nuxt",
+    "github>shinGangan/renovate-config//config/nuxt/seo",
+    "github>shinGangan/renovate-config//config/nuxt/test-utils",
+    "github>shinGangan/renovate-config//config/linters"
+  ],
+  "reviewers": ["shinGangan"]
+}
