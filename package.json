@@ -19,6 +19,11 @@
   },
   "packageManager": "pnpm@9.15.0",
   "scripts": {
+    "clean": "rimraf node_modules src/node_modules",
     "ui": "pnpm -C src"
+  },
+  "devDependencies": {
+    "npm-run-all2": "^7.0.2",
+    "rimraf": "^6.0.1"
   }
 }
