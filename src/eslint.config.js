@@ -1,10 +1,10 @@
 // @ts-check
+import { createConfigForNuxt } from '@nuxt/eslint-config/flat';
 import eslintPluginJsonc from 'eslint-plugin-jsonc';
 import pluginTailwindCss from 'eslint-plugin-tailwindcss';
 import pluginVueScopedCss from 'eslint-plugin-vue-scoped-css';
 import pluginVueA11y from 'eslint-plugin-vuejs-accessibility';
 import pluginYml from 'eslint-plugin-yml';
-import { createConfigForNuxt } from '@nuxt/eslint-config/flat';
 
 export default createConfigForNuxt({
   features: {

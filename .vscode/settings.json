@@ -2,6 +2,7 @@
   // "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
     "source.fixAll.eslint": "explicit"
   },
   "cSpell.userWords": ["nuxt", "tailwindcss", "reviewdog"]
