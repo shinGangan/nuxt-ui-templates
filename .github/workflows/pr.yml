@@ -1,0 +1,39 @@
+name: Pull Request
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  # ref: https://github.com/shinGangan/.github/blob/main/.github/workflows/labeler.yml
+  set-label-using-labeler:
+    name: Set labels to match monorepo
+    uses: shinGangan/.github/.github/workflows/labeler.yml@main
+    # NOTE: Renovate bot が作成した PR にはラベルを付与しない
+    if: ${{ contains(github.head_ref, 'renovate') == false }}
+    permissions:
+      contents: read
+      pull-requests: write
+    with:
+      config-path: .github/labeler.yml
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
+
+  # ref: https://github.com/shinGangan/.github/blob/main/.github/workflows/pull_request.yml
+  set-pr:
+    uses: shinGangan/.github/.github/workflows/pull_request.yml@main
+    # NOTE: Renovate bot が作成した PR にはラベルを付与しない
+    if: ${{ contains(github.head_ref, 'renovate') == false }}
+    permissions:
+      contents: read
+      repository-projects: read
+      pull-requests: write
+    with:
+      number: ${{ github.event.pull_request.number }}
+      title: ${{ github.event.pull_request.title }}
+      assignee: ${{ github.actor }}
+      # NOTE: 自動化優先度が低いため手動で更新する
+      milestone: 'v0.1.0'
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
+      repo: ${{ github.repository }}
