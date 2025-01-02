@@ -1,0 +1,29 @@
+{
+  "name": "@shinGangan/nuxt-nuxtui-templates",
+  "description": "Nuxt + Nuxt UI repository template.",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "shinGangan",
+    "url": "https://github.com/shinGangan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinGangan/nuxt-nuxtui-templates.git"
+  },
+  "engines": {
+    "node": "^20.15.0 || >= 22.0.0",
+    "npm": "🚨 Please use pnpm instead.",
+    "yarn": "🚨 Please use pnpm instead."
+  },
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "clean": "rimraf node_modules src/node_modules",
+    "ui": "pnpm -C src"
+  },
+  "devDependencies": {
+    "npm-run-all2": "^7.0.2",
+    "rimraf": "^6.0.1"
+  }
+}
