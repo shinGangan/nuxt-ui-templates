@@ -24,7 +24,9 @@
     "lint": "run-s lint:*",
     "lint:ui": "pnpm ui lint",
     "test": "run-s test:*",
-    "test:ui": "pnpm ui test"
+    "test:ui": "pnpm ui test",
+    "gen": "scaffdog generate -p .config/.scaffdog",
+    "gen:cm": "pnpm gen component"
   },
   "devDependencies": {
     "@vitest/eslint-plugin": "^1.1.23",
@@ -36,6 +38,7 @@
     "eslint-plugin-yml": "^1.16.0",
     "npm-run-all2": "^7.0.2",
     "rimraf": "^6.0.1",
+    "scaffdog": "^4.1.0",
     "vitest": "^2.1.8"
   }
 }
