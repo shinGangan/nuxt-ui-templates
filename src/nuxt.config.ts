@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
-  modules: ['@nuxt/ui'],
+  modules: ['@nuxt/test-utils/module', '@nuxt/ui'],
 
   $development: {
     devtools: { enabled: true }
@@ -8,6 +8,15 @@ export default defineNuxtConfig({
 
   future: {
     compatibilityVersion: 4
+  },
+
+  typescript: {
+    strict: false,
+    tsConfig: {
+      compilerOptions: {
+        types: ['vitest/importMeta']
+      }
+    }
   },
 
   compatibilityDate: '2025-01-02'

@@ -9,16 +9,22 @@
     "yarn": "🚨 Please use pnpm instead."
   },
   "packageManager": "pnpm@9.15.0",
+  "config": {
+    "vitest": "../.config/vitest.ts"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test": "vitest -c $npm_package_config_vitest"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.7.0",
+    "@nuxt/test-utils": "3.15.1",
     "@nuxt/ui": "^2.20.0",
+    "@vue/test-utils": "^2.4.6",
     "nuxt": "^3.15.0",
     "vue": "^3.5.13"
   }
