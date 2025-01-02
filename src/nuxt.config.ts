@@ -1,14 +1,17 @@
 export default defineNuxtConfig({
-  devtools: { enabled: false },
   modules: ['@nuxt/test-utils/module', '@nuxt/ui'],
 
   $development: {
     devtools: { enabled: true }
   },
 
+  devtools: { enabled: false },
+
   future: {
     compatibilityVersion: 4
   },
+
+  compatibilityDate: '2025-01-02',
 
   typescript: {
     strict: false,
@@ -17,7 +20,5 @@ export default defineNuxtConfig({
         types: ['vitest/importMeta']
       }
     }
-  },
-
-  compatibilityDate: '2025-01-02'
+  }
 });
