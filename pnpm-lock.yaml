@@ -44,6 +44,9 @@ importers:
 
   src:
     devDependencies:
+      '@iconify-json/heroicons':
+        specifier: ^1.2.2
+        version: 1.2.2
       '@nuxt/devtools':
         specifier: ^1.7.0
         version: 1.7.0(rollup@4.29.1)(vite@6.0.6(@types/node@22.10.3)(jiti@2.4.2)(stylus@0.57.0)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
