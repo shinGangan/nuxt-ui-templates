@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@vitest/eslint-plugin':
-        specifier: ^1.1.23
-        version: 1.1.23(@typescript-eslint/utils@8.19.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)(vitest@2.1.8(@types/node@22.10.3)(stylus@0.57.0)(terser@5.37.0))
+        specifier: ^1.1.24
+        version: 1.1.24(@typescript-eslint/utils@8.19.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)(vitest@2.1.8(@types/node@22.10.3)(stylus@0.57.0)(terser@5.37.0))
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@2.4.2)
@@ -1391,8 +1391,8 @@ packages:
       vite: ^5.0.0 || ^6.0.0
       vue: ^3.2.25
 
-  '@vitest/eslint-plugin@1.1.23':
-    resolution: {integrity: sha512-tH8nPAKYdH8jXo/ZJ7SpYTjW9Djoc6t1/EIJicI/ouDwYJQh/U6vhOAOU2nzQgjjfjU26ukvB6iu8MEI9oJmPg==}
+  '@vitest/eslint-plugin@1.1.24':
+    resolution: {integrity: sha512-7IaENe4NNy33g0iuuy5bHY69JYYRjpv4lMx6H5Wp30W7ez2baLHwxsXF5TM4wa8JDYZt8ut99Ytoj7GiDO01hw==}
     peerDependencies:
       '@typescript-eslint/utils': '>= 8.0'
       eslint: '>= 8.57.0'
@@ -6829,7 +6829,7 @@ snapshots:
       vite: 6.0.6(@types/node@22.10.3)(jiti@2.4.2)(stylus@0.57.0)(terser@5.37.0)(yaml@2.7.0)
       vue: 3.5.13(typescript@5.7.2)
 
-  '@vitest/eslint-plugin@1.1.23(@typescript-eslint/utils@8.19.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)(vitest@2.1.8(@types/node@22.10.3)(stylus@0.57.0)(terser@5.37.0))':
+  '@vitest/eslint-plugin@1.1.24(@typescript-eslint/utils@8.19.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)(vitest@2.1.8(@types/node@22.10.3)(stylus@0.57.0)(terser@5.37.0))':
     dependencies:
       '@typescript-eslint/utils': 8.19.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
       eslint: 9.17.0(jiti@2.4.2)
