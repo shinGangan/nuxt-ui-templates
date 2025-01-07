@@ -1,0 +1,19 @@
+{
+  "Vitest In-Source Testing": {
+    "prefix": "vitest",
+    "scope": "typescript",
+    "body": [
+      "if (import.meta.vitest) {",
+      "  const { it, expect, describe } = import.meta.vitest;",
+      "",
+      "  describe('', () => {",
+      "    it('正常系', () => {",
+      "    });",
+      "    it('正常系', () => {",
+      "    });",
+      "  });",
+      "}",
+    ],
+    "description": "In-Source Testing with Vitest."
+  }
+}
