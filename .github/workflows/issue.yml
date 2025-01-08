@@ -41,6 +41,7 @@ jobs:
               { regex: /fix/, label: 'bugs 🐞' },
               { regex: /chore/, label: 'chore 🏠' },
               { regex: /docs/, label: 'docs ✍️' },
+              { regex: /refactor/, label: 'refactoring 🧰' },
               { regex: /feat/, label: 'enhancement 🚀' },
             ];
 
