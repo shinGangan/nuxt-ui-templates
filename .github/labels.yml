@@ -1,0 +1,36 @@
+- color: f19db5
+  name: "ADR 🏯"
+  description: "Architectural Decision Records"
+- color: d73a4a
+  name: "bugs 🐞"
+  description: バグ・不具合修正
+- color: f08300
+  name: "chore 🏠"
+  description: chore
+- color: 742581
+  name: "design 🏗️"
+  description: 設計対応
+- color: 0075ca
+  name: "docs ✍️"
+  description: ドキュメント対応
+- color: 5bbee4
+  name: "enhancement 🚀"
+  description: "New feature or request"
+- color: d93f0b
+  name: "🔥 Priority:High"
+  description: "High priority"
+- color: 30e986
+  name: "🏕️ Priority: Low"
+  description: "Low priority, slowly support"
+- color: e2e9b1
+  name: "question❓"
+  description: 質問・相談
+- color: c5def5
+  name: "refactoring 🧰"
+  description: リファクタリング対応
+- color: 3e2b48
+  name: "🤖 renovate"
+  description: "Renovate bot"
+- color: e4e669
+  name: "testing ✅"
+  description: Testing
