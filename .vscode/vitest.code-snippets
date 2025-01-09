@@ -12,7 +12,7 @@
       "    it('正常系', () => {",
       "    });",
       "  });",
-      "}",
+      "}"
     ],
     "description": "In-Source Testing with Vitest."
   }
