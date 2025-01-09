@@ -10,7 +10,7 @@
       "",
       "  return {",
       "  }",
-      "};",
+      "};"
     ],
     "description": "Nuxt composables snippets."
   },
@@ -24,18 +24,14 @@
       "",
       "<template>",
       "",
-      "</template>",
+      "</template>"
     ],
     "description": "Nuxt components snippets."
   },
   "i18n custom block": {
     "prefix": "i18n",
     "scope": "vue",
-    "body": [
-      "<i18n lang=\"yaml\">",
-      "ja:",
-      "</i18n>",
-    ],
+    "body": ["<i18n lang=\"yaml\">", "ja:", "</i18n>"],
     "description": "I18n custom block."
   }
 }
