@@ -29,7 +29,7 @@
     "gen:cm": "pnpm gen component"
   },
   "devDependencies": {
-    "@vitest/eslint-plugin": "^1.1.24",
+    "@vitest/eslint-plugin": "^1.1.25",
     "eslint": "^9.18.0",
     "eslint-plugin-jsonc": "^2.18.2",
     "eslint-plugin-tailwindcss": "^3.17.5",
