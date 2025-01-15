@@ -6,12 +6,14 @@ on:
       - main
     paths-ignore:
       - '*.md'
+      - '.github/**/*'
       - '.vscode/**'
   pull_request:
     branches:
       - main
     paths-ignore:
       - '*.md'
+      - '.github/**/*'
       - '.vscode/**'
 
 jobs:
