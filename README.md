@@ -1,8 +1,9 @@
 <h1 style='display: flex; justify-content: center;'>
   nuxt-ui-templates
 </h1>
+
 <div style='display: flex; justify-content: center;'>
-  <div style='display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem'>
+  <div style='display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem'>
     <a href="https://github.com/nuxt/nuxt">
       <img
         src="https://img.shields.io/npm/v/nuxt.svg?style=plastic&colorA=18181B&colorB=00DC82&logo=nuxt&label=Nuxt"
@@ -19,6 +20,12 @@
       <img
         src="https://img.shields.io/npm/v/vitest.svg?style=plastic&logo=vitest&colorB=6E9F18&label=Vitest"
         alt="Vitest Version Badge"
+      />
+    </a>
+    <a href="https://github.com/pnpm/pnpm">
+      <img
+        src="https://img.shields.io/npm/v/pnpm.svg?style=plastic&logo=pnpm&colorB=F69220&label=pnpm"
+        alt="pnpm Version Badge"
       />
     </a>
     <a href="./LICENSE">
