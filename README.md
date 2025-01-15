@@ -1,9 +1,14 @@
-<h1 style='display: flex; justify-content: center;'>
+<h1 style='display: flex; justify-content: center'>
   nuxt-ui-templates
 </h1>
 
-<div style='display: flex; justify-content: center;'>
+<div style='display: flex; justify-content: center'>
   <div style='display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem'>
+
+[![Lint](https://github.com/shinGangan/nuxt-nuxtui-templates/actions/workflows/lint.yml/badge.svg)](https://github.com/shinGangan/nuxt-nuxtui-templates/actions/workflows/lint.yml)
+    
+  </div>
+  <div style='display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); place-items: center; gap: 1rem'>
     <a href="https://github.com/nuxt/nuxt">
       <img
         src="https://img.shields.io/npm/v/nuxt.svg?style=plastic&colorA=18181B&colorB=00DC82&logo=nuxt&label=Nuxt"
