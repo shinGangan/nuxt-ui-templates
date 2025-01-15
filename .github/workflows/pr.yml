@@ -22,8 +22,6 @@ jobs:
   # ref: https://github.com/shinGangan/.github/blob/main/.github/workflows/pull_request.yml
   set-pr:
     uses: shinGangan/.github/.github/workflows/pull_request.yml@main
-    # NOTE: Renovate bot が作成した PR にはラベルを付与しない
-    if: ${{ contains(github.head_ref, 'renovate') == false }}
     permissions:
       contents: read
       pull-requests: write
