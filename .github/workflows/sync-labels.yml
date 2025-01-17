@@ -12,13 +12,12 @@ jobs:
   sync-labels:
     runs-on: ubuntu-24.04
     timeout-minutes: 2
-    permissions:
-      issues: write
+    # permissions:
+    #   issues: write
     steps:
       - uses: actions/checkout@v4
       - uses: micnncim/action-label-syncer@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           manifest: .github/labels.yml
-          repository: |
-            shinGangan/.github
-          token: ${{ secrets.GITHUB_TOKEN }}
