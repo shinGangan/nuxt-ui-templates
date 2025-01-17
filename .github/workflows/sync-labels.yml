@@ -1,0 +1,23 @@
+name: Sync labels
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/sync-labels.yml
+
+jobs:
+  sync-labels:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 1
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: micnncim/action-label-syncer@v1
+        with:
+          manifest: labels.yml
+          repository: shinGangan/.github
+          token: ${{ secrets.GITHUB_TOKEN }}
